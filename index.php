@@ -13,3 +13,12 @@ $f = false; //Булево значение
 	echo $x[0];
 	echo '<br/>';
 	echo $arrayName[r][0];
+$name = 'Oleg';
+$surname = 'Popov';
+	echo '<br>'.$name.' '.$surname.'<br>';
+	echo 1883 % 3;
+	echo '<br>';
+$window = 'open'; //окно открыто, закрыто, приоткрыто 
+if($window == 'close') {echo 'Приоткрой окно!';}
+if($window == 'ajar') {echo 'Закрой окно!';}
+if($window == 'open') {echo 'Поставь на проветривание!';}
