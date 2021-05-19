@@ -15,5 +15,6 @@
 			<button herf="#">Hire Me!</button>
 		</div>
 	</div>
+	<script src="js/script.js"></script>
 </body>
 </html>

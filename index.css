@@ -1,10 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
 
+body{
+	margin: 0;
+}
 
 .container-title {
 	max-width: 951px;
 	margin: 0 auto;
-	padding: 0 15px;
 	display: flex;
 	justify-content: center;
 }
@@ -12,7 +14,7 @@
 .container-title .title-img {
 	width: 100%;
 	position: relative;
-	max-height: 435px;
+	height: 435px;
 	object-fit: cover;
 }
 
@@ -23,7 +25,6 @@
 	text-align: center;
 	font-family: 'Roboto';
 	margin: 100px 0;
-
 }
 
 .container-title .index-title .title-text-big{
@@ -41,7 +42,6 @@
 	margin: 0 auto;
 	line-height: 2;
 	font-size: 15px;
-
 }
 
 .container-title .index-title button {
@@ -53,4 +53,34 @@
 	border-radius: 5px;
 	border-width: 0;
 	margin: 44px auto;
+}
+
+@media (max-width: 767px) {
+
+	.container-title .index-title {
+		margin: 80px 40px;
+	}
+
+	.container-title .index-title .title-text-big{
+			font-size: 40px;
+	}
+
+	.container-title .index-title button {
+		margin: 25px auto;
+	}
+}
+
+@media (max-width: 481px) {
+
+	.container-title .index-title {
+		margin: 50px 15px;
+	}
+
+	.container-title .index-title .title-text-big{
+		font-size: 35px;
+	}
+
+	.container-title .index-title button {
+		margin: 20px auto;
+	}
 }
